@@ -8,8 +8,9 @@ const config = {
 			assets: 'docs',
 			fallback: '404.html'
 		}),
+		appDir: 'app',
 		paths: {
-			base: process.env.BASE_PATH || ''
+			base: ''
 		}
 	}
 };
