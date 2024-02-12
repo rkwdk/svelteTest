@@ -5,11 +5,11 @@ const config = {
 	kit: {
 		adapter: adapter({
 			pages: 'docs',
-			assets: 'docs',
 			fallback: '404.html'
 		}),
 		appDir: 'app',
 		paths: {
+			assets: '',
 			base: ''
 		}
 	}
